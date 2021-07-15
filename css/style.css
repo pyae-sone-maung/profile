@@ -1,175 +1,56 @@
-  body{
-    background-color: blueviolet;
-  }
-/* For Nav Bar */
-  nav{
-    background: whitesmoke;
-    height: 80px;
-    width: 100%;
-  }
 
-  label.logo{
-    color: blue;
-    font-size: 35px;
-    line-height: 80px;
-    padding-left: 100px;
-    font-weight: bold;
-  }
-  nav ul{
-    float: right;
-    margin-right: 20%;
-  }
-  nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-    font-weight: bold;
-  }
-  nav ul li a{
-    color: blue;
-    font-size: 20px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  a.active,a:hover{
-    background: #1b9bff;
-    transition: .5s;
-  }
-  .checkbtn{
-    font-size: 30px;
-    color: blueviolet;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-  #check{
-    display: none;
-  }
+#section-one{
+  background-color: yellow;
+  margin-top: 20px;
+  box-shadow: 0 4px 4px 0 rgba(139, 127, 127, 0.2), 0 4px 4px 0 rgba(146, 118, 118, 0.19);
+ }
 
-  #section-one{
-    background-color: yellow;
-    box-shadow: 0 4px 4px 0 rgba(139, 127, 127, 0.2), 0 4px 4px 0 rgba(146, 118, 118, 0.19);
-  }
+#profile{
+  padding: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+ }
 
-  #profile{
-    padding: 20px;
-    padding-bottom: 30px;
-  }
+.profile-picture img{
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(139, 127, 127, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
 
-  .profile-picture img{
-    width: 300px;
-    height: 300px;
-    margin-top: 30px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(139, 127, 127, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  #sec-col #hi {
-    font-size: 60px;
-  }
-
-  #sec-col #name {
-    font-size: 40px;
-  }
-
-  #sec-col #job {
-    font-size: 30px;
-    font-weight: bold;
-    color: blue;
-  }
-
-  #section-two{
-    margin-top: 10px;
-    width: auto;
-  }
-
-  #section-two h5{
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  blockquote{
-    font-size: 20px;
-    padding: 15px;
-  }
-
-  #section-two p{
-    font-size: 15px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 50px;
-    }
-    nav ul li a{
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 858px){
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #2c3e50;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-      color: white;
-    }
-    a:hover,a.active{
-      background: none;
-      color: #0082e6;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
-  }
+ #profile-info{
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
   
+#profile-info #name{
+  font-size: 40px;
+  font-weight: bold;
+ }
+
+#profile-info #job{
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
+ }
+  
+#section-two{
+  margin-top: 10px;
+  width: auto;
+ }
+
+#section-two h5{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+ }
+
+blockquote{
+  font-size: 20px;
+  padding: 15px;
+ }
+
+#section-two p{
+  font-size: 15px;
+ }
