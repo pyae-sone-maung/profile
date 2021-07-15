@@ -34,23 +34,36 @@
   font-weight: bold;
   color: blue;
  }
-  
-#section-two{
-  margin-top: 10px;
-  width: auto;
- }
 
-#section-two h5{
+ .card-header {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
  }
 
-blockquote{
+#section-two{
+  margin-top: 8px;
+  width: auto;
+ }
+
+#section-two #about{
   font-size: 20px;
+  font-style: inherit;
+  text-align: justify;
   padding: 15px;
  }
 
-#section-two p{
-  font-size: 15px;
+#section-two #degree, #university {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
  }
+
+#section-two #place {
+  font-size: 15px;
+  color: blue;
+}
+
+#sectoin-three #work-experience p {
+  font-size: 20px;
+}
