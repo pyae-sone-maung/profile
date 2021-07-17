@@ -56,14 +56,77 @@
 #section-two #degree, #university {
   font-size: 20px;
   font-weight: bold;
-  color: blue;
  }
 
 #section-two #place {
   font-size: 15px;
-  color: blue;
 }
 
 #sectoin-three #work-experience p {
   font-size: 20px;
+}
+
+#experience-card{
+  padding: 5px;
+  margin-left: 25%;
+  text-align: justify;
+}
+
+#experience-card .exp-date{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+#experience-card #job{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#experience-card #company {
+  font-size: 18px;
+}
+
+#experience-card #place {
+  font-size: 12px;
+}
+
+span.hidden{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #section-two #education {
+    margin-top: 3px;
+  }
+
+  #experience-card .exp-date{
+    font-size: 18px;
+  }
+
+  #experience-card .v-line {
+    border-left: 3px solid rgb(129, 127, 236);
+    margin-left: 30px;
+  }
+
+  span {
+    margin-left: 23px;
+    color: blue;
+  }
+
+  span.hidden{
+    display: block;
+  }
+
+  .v-line p{
+    margin-left: 20px;
+  }
+
+  .cc-experience-header {
+    margin-bottom: -30px;
+  }
+
+  #experience-card {
+    margin-left: 0px;
+  }
 }
