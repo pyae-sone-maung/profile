@@ -1,7 +1,10 @@
 
+
 #section-one{
   background: linear-gradient(10deg, yellow 60%, rgb(185, 228, 245) 60%);  margin-top: 20px;
   box-shadow: 0 4px 4px 0 rgba(139, 127, 127, 0.2), 0 4px 4px 0 rgba(146, 118, 118, 0.19);
+  border-radius: 7px;
+  margin-top: 20px;
  }
 
 #profile{
@@ -26,12 +29,13 @@
 #profile-info #name{
   font-size: 35px;
   font-weight: bold;
+  color: #252A32;
  }
 
 #profile-info #job{
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
-  color: blue;
+  color: rgb(22, 22, 172);
  }
 
  #profile-info a {
@@ -45,6 +49,7 @@
   font-size: 22px;
   font-weight: bold;
   text-align: center;
+  color: #16191D;
  }
 
 #section-two{
@@ -57,19 +62,23 @@
   font-style: inherit;
   text-align: justify;
   padding: 15px;
+  color: #16191D;
  }
 
 #section-two #degree, #university {
   font-size: 18px;
   font-weight: bold;
+  color: #16191D;
  }
 
 #section-two #place {
   font-size: 15px;
+  color: #16191D;
 }
 
 #sectoin-three #work-experience p {
   font-size: 18px;
+  color: #16191D;
 }
 
 #experience-card{
@@ -82,19 +91,23 @@
   font-size: 15px;
   font-weight: bold;
   margin-top: 3px;
+  color: #16191D;
 }
 
 #experience-card #job{
   font-size: 18px;
   font-weight: bold;
+  color: #16191D;
 }
 
 #experience-card #company {
   font-size: 18px;
+  color: #16191D;
 }
 
 #experience-card #place {
-  font-size: 12px;
+  font-size: 15px;
+  color: #16191D;
 }
 
 span.hidden{
@@ -117,6 +130,12 @@ span.hidden{
 #sectoin-four p {
   font-size: 16px;
   font-weight: bold;
+  color: #16191D;
+}
+
+.card{
+  box-shadow: 0 4px 4px 0 rgba(139, 127, 127, 0.2), 0 4px 4px 0 rgba(146, 118, 118, 0.19);
+  border-radius: 5px;
 }
 
 /* For Footer  */
@@ -292,7 +311,7 @@ center p {
   }
 
   span {
-    margin-left: 23px;
+    margin-left: 0px;
     color: blue;
   }
 
