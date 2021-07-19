@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="css/style.css">
-    
+
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>    
@@ -22,6 +23,11 @@
                   <div id="profile-info">
                     <p id="name"> Pyae Sone Maung </p>
                     <p id="job"> Junior Web Developer </p>
+                    <p> 
+                      <a href=""> <i class="fab fa-facebook-square"></i> </a>
+                      <a href=""> <i class="fab fa-github-square"></i> </a>
+                      <a href=""> <i class="fab fa-linkedin"></i> </a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -76,17 +82,85 @@
             </div>
           </section>
 
-          <section class="section container" id="sectoin-three">
+          <section class="section container" id="sectoin-four">
             <div class="card mt-2">
               <div class="card-header" id="work-experience"> SKILLS </div>
                 <div class="card-body text-center">
-                  <p> HTML</p>
-                  <p> CSS</p>
-                  <p> Bootstrap </p>
-                  <p> JJavaScript</p>
+                  <div class="row align-items-center">
+                    <div class="col"> <img src="images/logo/html.png" alt="HTML"> <p> HTML </p> </div>
+                    <div class="col"> <img src="images/logo/css.png" alt="CSS"> <p> CSS </p> </div>
+                    <div class="col"> <img src="images/logo/bootstrap.png" alt="Bootstrap"> <p> Bootstrap </p> </div>
+                    <div class="col"> <img src="images/logo/javascript.png" alt="JavaScript"> <p> JavaScript </p> </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col"> <img src="images/logo/jQuery.png" alt="jQuery"> <p> jQuery </p> </div>
+                    <div class="col"> <img src="images/logo/Git.jpg" alt="Git"> <p> Git </p> </div>
+                    <div class="col"> <img src="images/logo/linux.jpg" alt="Linux"> <p> Linux </p> </div>
+                    <div class="col"> <img src="images/logo/python.png" alt="Python"> <p> Python </p> </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col"> <img src="images/logo/PostgreSQL.jpg" alt="PostgreSQL"> <p> PostgreSQL </p> </div>
+                    <div class="col"> <img src="images/logo/MySQL.png" alt="MySQL"> <p> MySQL </p> </div>
+                    <div class="col"> <img src="images/logo/MongoDB.jpg" alt="MongoDB"> <p> MongoDB </p> </div>
+                    <div class="col"> </div>
+                  </div>
                 </div>
             </div>
           </section>
 
+          <section class="section container" id="sectoin-five">
+            <div class="card mt-2">
+              <div class="card-header" id="certification"> CERTIFICATION </div>
+                <div class="card-body text-center">
+                  <div class="row align-items-center">
+                    <div class="col"> <img id="myImg" src="images/certificate/linux server management and security.png" onclick="getImage(this)" alt="certificate" > </div>
+                    <div class="col"> <img id="myImg" src="images/certificate/network security and database vulnerabilitids.png" onclick="getImage(this)" alt="certificate" > </div>
+                    <div class="col"> <img id="myImg" src="images/certificate/responsive web design.png" onclick="getImage(this)" alt="certificate" > </div>
+                  </div>
+                  <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="section container" id="sectoin-six">
+            <footer>
+              <div class="main-content">
+                <div class="left box">
+                  <p> Contact</p>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="contact-email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label"> Message </label>
+                    <textarea class="form-control" id="contact-message" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <button type="submit"> Send </button>
+                  </div>
+                </div>                
+                <div class="center box">
+                  <p id="address"> Address </p>
+                    <div class="address-info">
+                      <p> <i class="fas fa-map-marker-alt"></i> &nbsp No.95, Toungup Road, Toungp Township, Rakhine </p>
+                      <p> <i class="fas fa-envelope"></i> &nbsp pyaesonemaung.psm1996@gmail.com </p>
+                      <p> <i class="fas fa-phone-alt"></i> &nbsp 09421768115 </p>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="bottom">
+                <center>
+                  <p> Copyright <span class="far fa-copyright"> </span> 2021 Pyae Sone Maung. All rights reserved.</p>
+                </center>
+              </div>
+            </footer>
+          </section>
+
     </body>
+    <script src="js/profile.js"> </script>
 </html>
