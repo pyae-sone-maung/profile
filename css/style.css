@@ -41,7 +41,7 @@
  }
 
  #profile-info a {
-   font-size: 25px;
+   font-size: 30px;
    padding: 5px;
    text-decoration: none;
    color: black;
@@ -60,7 +60,7 @@
  }
 
 #section-two #about{
-  font-size: 18px;
+  font-size: 16px;
   font-style: inherit;
   text-align: justify;
   padding: 15px;
@@ -97,13 +97,13 @@
 }
 
 #experience-card #job{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #16191D;
 }
 
 #experience-card #company {
-  font-size: 18px;
+  font-size: 16px;
   color: #16191D;
 }
 
@@ -130,7 +130,7 @@ span.hidden{
 }
 
 #sectoin-four p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #16191D;
 }
@@ -253,7 +253,7 @@ footer .bottom {
 
 center p {
   padding-top: 10px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 #sectoin-six .left p, #address {
@@ -263,7 +263,6 @@ center p {
 }
 
 #sectoin-six .address-info {
-  margin-left: 12%;
   font-size: 16px;
 }
 
@@ -303,12 +302,16 @@ center p {
     margin-top: 3px;
   }
 
+  #section-two #degree, #university {
+    font-size: 16px;
+  }
+
   #sectoin-three {
     margin-top: -2px;
   }
 
   #experience-card .exp-date{
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #experience-card .v-line {
@@ -317,7 +320,7 @@ center p {
   }
 
   .card-body span {
-    margin-left: 20px;
+    margin-left: 23px;
     color: blue;
   }
 
