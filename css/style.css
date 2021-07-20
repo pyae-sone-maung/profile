@@ -277,6 +277,7 @@ center p {
   color: white;
   background: rgb(25, 37, 77);
   border-radius: 7px;
+  border: 2px solid #E0E0E0;
 }
 
 
