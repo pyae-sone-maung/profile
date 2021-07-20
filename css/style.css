@@ -74,7 +74,7 @@
  }
 
 #section-two #place {
-  font-size: 15px;
+  font-size: 14px;
   color: #16191D;
 }
 
@@ -97,18 +97,18 @@
 }
 
 #experience-card #job{
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   color: #16191D;
 }
 
 #experience-card #company {
-  font-size: 16px;
+  font-size: 15px;
   color: #16191D;
 }
 
 #experience-card #place {
-  font-size: 15px;
+  font-size: 14px;
   color: #16191D;
 }
 
@@ -130,7 +130,7 @@ span.hidden{
 }
 
 #sectoin-four p {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   color: #16191D;
 }
@@ -303,7 +303,7 @@ center p {
   }
 
   #section-two #degree, #university {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   #sectoin-three {
@@ -311,7 +311,7 @@ center p {
   }
 
   #experience-card .exp-date{
-    font-size: 16px;
+    font-size: 15px;
   }
 
   #experience-card .v-line {
