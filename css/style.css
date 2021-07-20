@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
 
 #section-one{
   background: linear-gradient(10deg, yellow 60%, rgb(185, 228, 245) 60%);  margin-top: 20px;
@@ -138,75 +140,6 @@ span.hidden{
   border-radius: 5px;
 }
 
-/* For Footer  */
-footer{
-  bottom: 0px;
-  width: 100%;
-  margin-top: 5px;
-  border-radius: 5px;
-  color: white;
-  background: rgb(37, 32, 54);
-}
-
-footer .main-content{
-  display: flex;
-}
-
-footer .main-content .box{
-  flex-basis: 50%;
-  padding: 10px 20px;
-}
-
-footer .bottom {
-  height: 40px;
-  background: rgba(43, 42, 62, 0.76);
-  border-radius: 5px;
-}
-
-center p {
-  padding-top: 10px;
-}
-
-#sectoin-six .left p, #address {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-}
-
-#sectoin-six .address-info {
-  margin-left: 12%;
-  font-size: 16px;
-}
-
-#sectoin-six label {
-  font-size: 16px;
-}
-
-#sectoin-six button {
-  width: 100px;
-  padding: 5px;
-  font-weight: bold;
-  color: white;
-  background: rgb(25, 37, 77);
-  border-radius: 7px;
-}
-
-
-@media screen and (max-width: 900px) {
-  footer{
-    position: relative;
-    bottom: 0px;
-  }
-
-  .main-content{
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
-  .main-content .box{
-    margin: 5px 0;
-  }
-}
 
 /* For Certification */
 #myImg {
@@ -292,6 +225,79 @@ center p {
   }
 }
 
+/* For Footer  */
+footer{
+  bottom: 0px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  background: rgb(37, 32, 54);
+}
+
+footer .main-content{
+  display: flex;
+}
+
+footer .main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+footer .bottom {
+  height: 40px;
+  background: rgba(43, 42, 62, 0.76);
+  border-radius: 5px;
+}
+
+center p {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+#sectoin-six .left p, #address {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#sectoin-six .address-info {
+  margin-left: 12%;
+  font-size: 16px;
+}
+
+#sectoin-six label {
+  font-size: 16px;
+}
+
+#sectoin-six button {
+  width: 100px;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: rgb(25, 37, 77);
+  border-radius: 7px;
+}
+
+
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
   #section-two #education {
     margin-top: 3px;
@@ -310,8 +316,8 @@ center p {
     margin-left: 30px;
   }
 
-  span {
-    margin-left: 0px;
+  .card-body span {
+    margin-left: 20px;
     color: blue;
   }
 
