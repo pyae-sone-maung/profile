@@ -302,8 +302,12 @@ center p {
     margin-top: 3px;
   }
 
-  #section-two #degree, #university {
+  #section-two #degree {
     font-size: 15px;
+  }
+
+  #section-two #university {
+    font-size: 14px;
   }
 
   #sectoin-three {
