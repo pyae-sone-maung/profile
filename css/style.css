@@ -85,8 +85,7 @@
 
 #experience-card{
   padding: 5px;
-  margin-left: 25%;
-  text-align: justify;
+  margin-left: 30%;
 }
 
 #experience-card .exp-date{
@@ -326,7 +325,7 @@ center p {
   }
 
   .card-body span {
-    margin-left: -6px;
+    margin-left: -6.5px;
     color: blue;
   }
 
