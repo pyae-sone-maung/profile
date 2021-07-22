@@ -317,15 +317,16 @@ center p {
 
   #experience-card .exp-date{
     font-size: 15px;
+    margin-left: -15px;
   }
 
   #experience-card .v-line {
     border-left: 3px solid rgb(129, 127, 236);
-    margin-left: 30px;
+    margin-left: 0px;
   }
 
   .card-body span {
-    margin-left: 23px;
+    margin-left: -6px;
     color: blue;
   }
 
@@ -334,7 +335,7 @@ center p {
   }
 
   .v-line p{
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .cc-experience-header {
